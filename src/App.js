@@ -30,7 +30,7 @@ function App(props) {
 
   return (
     <div className="text-center">
-      <h1 className="text-5xl font-black text-gray-100">RoboBUDDIES</h1>
+      <h1 className="text-5xl font-black text-gray-100">RoboBUDDIES THATS RIGHT</h1>
       <SearchBox searchChange={onSearchChange} />
       <Scroll>
         <ErrorBoundry>
