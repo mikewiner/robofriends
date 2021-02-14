@@ -4,6 +4,8 @@ import SearchBox from "./components/SearchBox";
 import Scroll from "./components/Scroll";
 import ErrorBoundry from "./components/ErrorBoundry";
 
+import { setSearchField } from "./actions";
+
 function App(props) {
 
   const [robots, setRobots] = useState([]);
